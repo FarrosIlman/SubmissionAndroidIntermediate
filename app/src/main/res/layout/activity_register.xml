@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.RegisterActivity">
+
+    <TextView
+        android:id="@+id/gtv_join_us"
+        style="@style/Text.Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/join_us"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_introduction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/introduction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/gtv_join_us"
+        app:layout_constraintTop_toBottomOf="@+id/gtv_join_us" />
+
+    <com.parrosz.storyu.customview.EditTextCustom
+        android:id="@+id/et_layout_name"
+        style="@style/EditText"
+        android:layout_marginTop="48dp"
+        android:hint="@string/placeholder_name"
+        app:layout_constraintEnd_toEndOf="@+id/tv_introduction"
+        app:layout_constraintStart_toStartOf="@+id/tv_introduction"
+        app:layout_constraintTop_toBottomOf="@+id/tv_introduction" />
+
+    <com.parrosz.storyu.customview.EmailEditText
+        android:id="@+id/et_layout_email"
+        style="@style/EditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/placeholder_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/et_layout_name"
+        app:layout_constraintStart_toStartOf="@+id/et_layout_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_layout_name" />
+
+    <com.parrosz.storyu.customview.PasswordEditText
+        android:id="@+id/et_layout_password"
+        style="@style/EditText"
+        android:layout_marginTop="8dp"
+        android:hint="@string/placeholder_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/et_layout_email"
+        app:layout_constraintStart_toStartOf="@+id/et_layout_email"
+        app:layout_constraintTop_toBottomOf="@+id/et_layout_email" />
+
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/register_this_account"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="@+id/et_layout_password"
+        app:layout_constraintStart_toStartOf="@+id/et_layout_password"
+        app:layout_constraintTop_toBottomOf="@+id/et_layout_password" />
+
+    <TextView
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/login"
+        android:text="@string/login_button"
+        style="@style/Button"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/btn_register"
+        app:layout_constraintStart_toStartOf="@+id/btn_register"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

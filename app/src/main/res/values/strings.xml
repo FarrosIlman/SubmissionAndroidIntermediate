@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">StoryU</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="welcome">Welcome!</string>
+    <string name="join_us">Join us!</string>
+    <string name="introduction">Contribute to becoming an author of a magical world.</string>
+    <string name="greeting">Let\'s explore the beauty of the world through inspiring stories and share your experiences to add color to life!</string>
+    <string name="greeting1">See what your friends are doing!</string>
+    <string name="greeting2">Express yourself!</string>
+    <!--    FINISH THE GREETINGS-->
+    <string name="login">Log In</string>
+    <string name="login_button">Already have an account? Log in!</string>
+    <string name="register">Register</string>
+    <string name="get_started">Get Started</string>
+    <string name="or">or</string>
+    <string name="have_account">Already have an account?</string>
+
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="proceed">Proceed</string>
+    <string name="post">Upload</string>
+
+    <string name="settings">Settings</string>
+    <string name="story">Story Post</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="enter_description">Enter description</string>
+
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+
+    <!--    PLACEHOLDERS-->
+    <string name="placeholder_name">e.g. John John</string>
+    <string name="placeholder_email">e.g. email@mail.com</string>
+    <string name="placeholder_password">********</string>
+
+    <string name="placeholder_user">User Name</string>
+    <string name="placeholder_description">This is the description</string>
+
+
+    <string name="valid_email">Please enter a valid email</string>
+    <string name="password_minimum">Password must be at least 8 characters</string>
+    <string name="email_cannot_empty">Email cannot be empty</string>
+    <string name="register_successful">Account successfully registered</string>
+    <string name="name_cannot_empty">Name cannot be empty</string>
+    <string name="camera_failed">Failed to open camera</string>
+    <string name="permission_needed">Permission is needed to use the camera</string>
+    <string name="failed_capture">Failed to capture image</string>
+    <string name="image_posted">Image has been posted</string>
+    <string name="wait_for_processing">Wait until the process is complete</string>
+    <string name="description_cannot_empty">Description cannot be empty</string>
+    <string name="logout">Logout</string>
+    <string name="take_picture">Take a picture</string>
+    <string name="rotate_camera">Rotate camera</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="story_picture">Story picture</string>
+    <string name="post_a_picture">Upload a picture</string>
+    <string name="greeting_picture">Greetings picture</string>
+    <string name="register_an_account">Don\'t have an account yet? Register!</string>
+    <string name="post_the_picture">Post this picture</string>
+    <string name="register_this_account">Register this account</string>
+    <string name="login_instead">Log in instead</string>
+    <string name="no_stories_found">No stories found</string>
+    <string name="expand_description">View full description</string>
+    <string name="story_map_title">Story by %s - Click to see story</string>
+    <string name="expand_image">View full image</string>
+    <string name="welcome_message_placeholder">Welcome to StoryU</string>
+    <string name="retry">Retry</string>
+    <string name="stories_map">Stories Maps</string>
+    <string name="failed_fetching_data">Failed to update feed. Please try again later</string>
+    <string name="failed_load_map">Failed to load map</string>
+</resources>
